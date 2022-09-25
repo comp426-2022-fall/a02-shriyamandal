@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "a cmd line package which tells you if you need to wear your galoshes!",
   "main": "cli.js",
+  "type": "module",
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
   "scripts": {
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
@@ -23,9 +27,4 @@
     "minimist": "^1.2.6",
     "moment-timezone": "^0.5.37",
     "node-fetch": "^3.2.10"
-  }, 
-  "bin": {
-    "galosh.js": "./cli.js"
-  },
-  "type": "module"
-}
+  }
