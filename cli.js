@@ -39,7 +39,7 @@ if (args.j) {
 }
 
 // set up logic for days, if there is no days arg, set days as 1/tomorrow
-const days = 1
+var days = 1
 
 if (args.d != null) {
     days = args.d
