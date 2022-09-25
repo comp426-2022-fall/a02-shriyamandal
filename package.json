@@ -5,7 +5,7 @@
   "main": "cli.js",
   "type": "module",
   "bin": {
-    ".galosh.js": "./cli.js"
+    "galosh.js": "./cli.js"
   },
   "scripts": {
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
