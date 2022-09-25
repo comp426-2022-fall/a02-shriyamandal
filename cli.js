@@ -24,7 +24,7 @@ const timezone = args.z ? args.z: moment.tz.guess();
 
 // set longitude and latitude
 const lat =  args.n || args.s * -1;
-const long = args.n || args.s * -1;
+const long = args.e || args.w * -1;
 
 const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${long}&daily=precipitation_hours&current_weather=true&timezone=${timezone}`;
 console.log(url);
