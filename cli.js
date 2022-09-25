@@ -61,7 +61,7 @@ const precipitation = data.daily.precipitation_hours[days];
   
 // log the final message onto the console
 if (precipitation > "0") {
-    console.log("You might need your galoshes ${DAY}.")
+    console.log(`You might need your galoshes ${DAY}.`)
 } else {
-    console.log("You will not need your galoshes ${DAY}.")
+    console.log(`You will not need your galoshes ${DAY}.`)
 }
