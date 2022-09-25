@@ -20,7 +20,7 @@ if (args.h) {
 }
 
 // set timezone to what was given, or guess from system
-const timezone = args.t ? args.t: moment.tz.guess();
+const timezone = args.z ? args.z: moment.tz.guess();
 
 // set longitude and latitude
 const latitude =  args.n || args.s * -1;
