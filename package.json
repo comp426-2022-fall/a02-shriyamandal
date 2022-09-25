@@ -2,7 +2,7 @@
   "name": "galosh.js",
   "version": "1.0.0",
   "description": "a cmd line package which tells you if you need to wear your galoshes!",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
